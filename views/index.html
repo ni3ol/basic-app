@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <form action="/" method="POST">
+      <input name="name"></input>
+      <button type="submit">submit</button>
+    </form>
+
+
+    <ol>
+      {% for person in people %}
+        <li>{{person}}</li>
+      {% endfor %}
+    </ol>
+  </body>
+</html>
